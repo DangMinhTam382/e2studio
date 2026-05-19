@@ -1,0 +1,22 @@
+[
+  {
+    "directory": "C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv",
+    "command": "\"C:/ProgramData/LLVM for Renesas RISC-V 17.0.2.202407/bin/clang.exe\" --target\u003driscv32 -mabi\u003dilp32 -march\u003drv32imaczba_zbb_zbs -Og -ffunction-sections -fdata-sections -fdiagnostics-parseable-fixits -fno-strict-aliasing -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Waggregate-return -g -I\"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/generate\" \"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/generate/inthandler.c\" -c -o \"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/HardwareDebug/generate/inthandler.o\"",
+    "file": "C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/generate/inthandler.c"
+  },
+  {
+    "directory": "C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv",
+    "command": "\"C:/ProgramData/LLVM for Renesas RISC-V 17.0.2.202407/bin/clang.exe\" --target\u003driscv32 -mabi\u003dilp32 -march\u003drv32imaczba_zbb_zbs -Og -ffunction-sections -fdata-sections -fdiagnostics-parseable-fixits -fno-strict-aliasing -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Waggregate-return -g -I\"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/generate\" \"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/generate/vects.c\" -c -o \"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/HardwareDebug/generate/vects.o\"",
+    "file": "C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/generate/vects.c"
+  },
+  {
+    "directory": "C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv",
+    "command": "\"C:/ProgramData/LLVM for Renesas RISC-V 17.0.2.202407/bin/clang.exe\" --target\u003driscv32 -mabi\u003dilp32 -march\u003drv32imaczba_zbb_zbs -Og -ffunction-sections -fdata-sections -fdiagnostics-parseable-fixits -fno-strict-aliasing -Wunused -Wuninitialized -Wall -Wextra -Wmissing-declarations -Wconversion -Wpointer-arith -Wshadow -Waggregate-return -g -I\"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/generate\" \"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/src/risv.c\" -c -o \"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/HardwareDebug/src/risv.o\"",
+    "file": "C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/src/risv.c"
+  },
+  {
+    "directory": "C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv",
+    "command": "clang  -I\"C:/Users/a5118811/git/e2studio/MoreSoftwareProjects/risv/HardwareDebug\" -I\"C:\\Users\\a5118811\\git\\e2studio\\MoreSoftwareProjects\\risv\\generate\" -ferror-limit\u003d30",
+    "file": "C:\\Users\\a5118811\\git\\e2studio\\MoreSoftwareProjects\\risv\\generate\\linker_script.ld"
+  }
+]

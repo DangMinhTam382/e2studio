@@ -1,0 +1,631 @@
+     VMA      LMA     Size Align Out     In      Symbol
+       0        0       8a     2 .vec
+       0        0       8a     2         ./generate/start.o:(.text)
+       0        0        0     1                 
+       0        0        0     1                 .Ltmp0
+       0        0        0     1                 
+       0        0       8a     1                 _PowerON_Reset
+       4        4        0     1                 
+       8        8        0     1                 .Lpcrel_hi0
+       8        8        0     1                 
+      10       10        0     1                 
+      12       12        0     1                 .Lpcrel_hi1
+      12       12        0     1                 
+      1a       1a        0     1                 .Lpcrel_hi2
+      1a       1a        0     1                 
+      22       22        0     1                 
+      24       24        0     1                 
+      26       26        0     1                 
+      28       28        0     1                 .Lpcrel_hi3
+      28       28        0     1                 
+      30       30        0     1                 .Lpcrel_hi4
+      30       30        0     1                 
+      38       38        0     1                 .Lpcrel_hi5
+      38       38        0     1                 
+      40       40        0     1                 
+      44       44        0     1                 .Lpcrel_hi6
+      44       44        0     1                 
+      4c       4c        0     1                 .Lpcrel_hi7
+      4c       4c        0     1                 
+      54       54        0     1                 .Lpcrel_hi8
+      54       54        0     1                 
+      5c       5c        0     1                 
+      60       60        0     1                 .Lpcrel_hi9
+      60       60        0     1                 
+      68       68        0     1                 
+      6a       6a        0     1                 .Lpcrel_hi10
+      6a       6a        0     1                 
+      72       72        0     1                 
+      74       74        0     1                 .Lweak_atexit
+      74       74        0     1                 
+      78       78        0     1                 
+      7c       7c        0     1                 
+      7e       7e        0     1                 
+      80       80        0     1                 
+      82       82        0     1                 
+      86       86        0     1                 
+      8a       8a        0     1                 
+      c0       c0       cc     4 .vects
+      c0       c0       cc     4         ./generate/vects.o:(.vects)
+      c0       c0       cc     1                 InterruptVectors
+     1c0      1c0        4     4 .nvect
+     1c0      1c0        4     4         ./generate/vects.o:(.nvect)
+     1c0      1c0        4     1                 ExceptVectors
+     400      400        4     4 .option_ofs0
+     400      400        4     4         ./generate/vects.o:(.option_ofs0)
+     400      400        4     1                 Option_OFS0
+     404      404        4     4 .option_ofs1
+     404      404        4     4         ./generate/vects.o:(.option_ofs1)
+     404      404        4     1                 Option_OFS1
+     408      408       34     4 .option_frp
+     408      408       34     4         ./generate/vects.o:(.option_frp)
+     408      408       34     1                 Option_FPR
+     800      800       10     4 .option_osis
+     800      800       10     4         ./generate/vects.o:(.option_osis)
+     800      800       10     1                 Option_OSIS
+     810      810        0     1 __mdata = .
+     810      810      3ac     2 .text
+     810      810       12     2         ./generate/exit.o:(.text)
+     810      810        0     1                 
+     810      810        0     1                 
+     810      810        0     1                 _exit
+     814      814        0     1                 
+     816      816        0     1                 
+     81a      81a        0     1                 
+     81c      81c        0     1                 
+     81e      81e        0     1                 
+     822      822        0     1                 
+     822      822       a8     2         C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-memset.o):(.text)
+     822      822       a8     1                 memset
+     830      830        0     1                 .Laligned
+     832      832        0     1                 .Lwordified
+     83a      83a        0     1                 .Ltmp0
+     84c      84c        0     1                 .Ltiny
+     852      852        0     1                 .Ltmp1
+     858      858        0     1                 .Ltable_misaligned
+     85c      85c        0     1                 .Ltable
+     89a      89a        0     1                 .Lwordify
+     8ac      8ac        0     1                 .Lmisaligned
+     8b0      8b0        0     1                 .Ltmp2
+     8ca      8ca        2     2         ./src/risv.o:(.text.main)
+     8ca      8ca        0     1                 
+     8ca      8ca        0     1                 
+     8ca      8ca        0     1                 .LBB0_1
+     8ca      8ca        0     1                 
+     8ca      8ca        2     1                 main
+     8cc      8cc        0     1                 
+     8cc      8cc        0     1                 
+     8cc      8cc        4     2         ./generate/inthandler.o:(.text.INT_ACLINT_MSIP)
+     8cc      8cc        0     1                 
+     8cc      8cc        0     1                 
+     8cc      8cc        0     1                 
+     8cc      8cc        4     1                 INT_ACLINT_MSIP
+     8d0      8d0        0     1                 
+     8d0      8d0        4     2         ./generate/inthandler.o:(.text.INT_ACLINT_MTIP)
+     8d0      8d0        0     1                 
+     8d0      8d0        0     1                 
+     8d0      8d0        0     1                 
+     8d0      8d0        4     1                 INT_ACLINT_MTIP
+     8d4      8d4        0     1                 
+     8d4      8d4        4     2         ./generate/inthandler.o:(.text.INT_IELSR0)
+     8d4      8d4        0     1                 
+     8d4      8d4        0     1                 
+     8d4      8d4        0     1                 
+     8d4      8d4        4     1                 INT_IELSR0
+     8d8      8d8        0     1                 
+     8d8      8d8        4     2         ./generate/inthandler.o:(.text.INT_IELSR1)
+     8d8      8d8        0     1                 
+     8d8      8d8        0     1                 
+     8d8      8d8        0     1                 
+     8d8      8d8        4     1                 INT_IELSR1
+     8dc      8dc        0     1                 
+     8dc      8dc        4     2         ./generate/inthandler.o:(.text.INT_IELSR2)
+     8dc      8dc        0     1                 
+     8dc      8dc        0     1                 
+     8dc      8dc        0     1                 
+     8dc      8dc        4     1                 INT_IELSR2
+     8e0      8e0        0     1                 
+     8e0      8e0        4     2         ./generate/inthandler.o:(.text.INT_IELSR3)
+     8e0      8e0        0     1                 
+     8e0      8e0        0     1                 
+     8e0      8e0        0     1                 
+     8e0      8e0        4     1                 INT_IELSR3
+     8e4      8e4        0     1                 
+     8e4      8e4        4     2         ./generate/inthandler.o:(.text.INT_IELSR4)
+     8e4      8e4        0     1                 
+     8e4      8e4        0     1                 
+     8e4      8e4        0     1                 
+     8e4      8e4        4     1                 INT_IELSR4
+     8e8      8e8        0     1                 
+     8e8      8e8        4     2         ./generate/inthandler.o:(.text.INT_IELSR5)
+     8e8      8e8        0     1                 
+     8e8      8e8        0     1                 
+     8e8      8e8        0     1                 
+     8e8      8e8        4     1                 INT_IELSR5
+     8ec      8ec        0     1                 
+     8ec      8ec        4     2         ./generate/inthandler.o:(.text.INT_IELSR6)
+     8ec      8ec        0     1                 
+     8ec      8ec        0     1                 
+     8ec      8ec        0     1                 
+     8ec      8ec        4     1                 INT_IELSR6
+     8f0      8f0        0     1                 
+     8f0      8f0        4     2         ./generate/inthandler.o:(.text.INT_IELSR7)
+     8f0      8f0        0     1                 
+     8f0      8f0        0     1                 
+     8f0      8f0        0     1                 
+     8f0      8f0        4     1                 INT_IELSR7
+     8f4      8f4        0     1                 
+     8f4      8f4        4     2         ./generate/inthandler.o:(.text.INT_IELSR8)
+     8f4      8f4        0     1                 
+     8f4      8f4        0     1                 
+     8f4      8f4        0     1                 
+     8f4      8f4        4     1                 INT_IELSR8
+     8f8      8f8        0     1                 
+     8f8      8f8        4     2         ./generate/inthandler.o:(.text.INT_IELSR9)
+     8f8      8f8        0     1                 
+     8f8      8f8        0     1                 
+     8f8      8f8        0     1                 
+     8f8      8f8        4     1                 INT_IELSR9
+     8fc      8fc        0     1                 
+     8fc      8fc        4     2         ./generate/inthandler.o:(.text.INT_IELSR10)
+     8fc      8fc        0     1                 
+     8fc      8fc        0     1                 
+     8fc      8fc        0     1                 
+     8fc      8fc        4     1                 INT_IELSR10
+     900      900        0     1                 
+     900      900        4     2         ./generate/inthandler.o:(.text.INT_IELSR11)
+     900      900        0     1                 
+     900      900        0     1                 
+     900      900        0     1                 
+     900      900        4     1                 INT_IELSR11
+     904      904        0     1                 
+     904      904        4     2         ./generate/inthandler.o:(.text.INT_IELSR12)
+     904      904        0     1                 
+     904      904        0     1                 
+     904      904        0     1                 
+     904      904        4     1                 INT_IELSR12
+     908      908        0     1                 
+     908      908        4     2         ./generate/inthandler.o:(.text.INT_IELSR13)
+     908      908        0     1                 
+     908      908        0     1                 
+     908      908        0     1                 
+     908      908        4     1                 INT_IELSR13
+     90c      90c        0     1                 
+     90c      90c        4     2         ./generate/inthandler.o:(.text.INT_IELSR14)
+     90c      90c        0     1                 
+     90c      90c        0     1                 
+     90c      90c        0     1                 
+     90c      90c        4     1                 INT_IELSR14
+     910      910        0     1                 
+     910      910        4     2         ./generate/inthandler.o:(.text.INT_IELSR15)
+     910      910        0     1                 
+     910      910        0     1                 
+     910      910        0     1                 
+     910      910        4     1                 INT_IELSR15
+     914      914        0     1                 
+     914      914        4     2         ./generate/inthandler.o:(.text.INT_IELSR16)
+     914      914        0     1                 
+     914      914        0     1                 
+     914      914        0     1                 
+     914      914        4     1                 INT_IELSR16
+     918      918        0     1                 
+     918      918        4     2         ./generate/inthandler.o:(.text.INT_IELSR17)
+     918      918        0     1                 
+     918      918        0     1                 
+     918      918        0     1                 
+     918      918        4     1                 INT_IELSR17
+     91c      91c        0     1                 
+     91c      91c        4     2         ./generate/inthandler.o:(.text.INT_IELSR18)
+     91c      91c        0     1                 
+     91c      91c        0     1                 
+     91c      91c        0     1                 
+     91c      91c        4     1                 INT_IELSR18
+     920      920        0     1                 
+     920      920        4     2         ./generate/inthandler.o:(.text.INT_IELSR19)
+     920      920        0     1                 
+     920      920        0     1                 
+     920      920        0     1                 
+     920      920        4     1                 INT_IELSR19
+     924      924        0     1                 
+     924      924        4     2         ./generate/inthandler.o:(.text.INT_IELSR20)
+     924      924        0     1                 
+     924      924        0     1                 
+     924      924        0     1                 
+     924      924        4     1                 INT_IELSR20
+     928      928        0     1                 
+     928      928        4     2         ./generate/inthandler.o:(.text.INT_IELSR21)
+     928      928        0     1                 
+     928      928        0     1                 
+     928      928        0     1                 
+     928      928        4     1                 INT_IELSR21
+     92c      92c        0     1                 
+     92c      92c        4     2         ./generate/inthandler.o:(.text.INT_IELSR22)
+     92c      92c        0     1                 
+     92c      92c        0     1                 
+     92c      92c        0     1                 
+     92c      92c        4     1                 INT_IELSR22
+     930      930        0     1                 
+     930      930        4     2         ./generate/inthandler.o:(.text.INT_IELSR23)
+     930      930        0     1                 
+     930      930        0     1                 
+     930      930        0     1                 
+     930      930        4     1                 INT_IELSR23
+     934      934        0     1                 
+     934      934        4     2         ./generate/inthandler.o:(.text.INT_IELSR24)
+     934      934        0     1                 
+     934      934        0     1                 
+     934      934        0     1                 
+     934      934        4     1                 INT_IELSR24
+     938      938        0     1                 
+     938      938        4     2         ./generate/inthandler.o:(.text.INT_IELSR25)
+     938      938        0     1                 
+     938      938        0     1                 
+     938      938        0     1                 
+     938      938        4     1                 INT_IELSR25
+     93c      93c        0     1                 
+     93c      93c        4     2         ./generate/inthandler.o:(.text.INT_IELSR26)
+     93c      93c        0     1                 
+     93c      93c        0     1                 
+     93c      93c        0     1                 
+     93c      93c        4     1                 INT_IELSR26
+     940      940        0     1                 
+     940      940        4     2         ./generate/inthandler.o:(.text.INT_IELSR27)
+     940      940        0     1                 
+     940      940        0     1                 
+     940      940        0     1                 
+     940      940        4     1                 INT_IELSR27
+     944      944        0     1                 
+     944      944        4     2         ./generate/inthandler.o:(.text.INT_IELSR28)
+     944      944        0     1                 
+     944      944        0     1                 
+     944      944        0     1                 
+     944      944        4     1                 INT_IELSR28
+     948      948        0     1                 
+     948      948        4     2         ./generate/inthandler.o:(.text.INT_IELSR29)
+     948      948        0     1                 
+     948      948        0     1                 
+     948      948        0     1                 
+     948      948        4     1                 INT_IELSR29
+     94c      94c        0     1                 
+     94c      94c        4     2         ./generate/inthandler.o:(.text.INT_IELSR30)
+     94c      94c        0     1                 
+     94c      94c        0     1                 
+     94c      94c        0     1                 
+     94c      94c        4     1                 INT_IELSR30
+     950      950        0     1                 
+     950      950        4     2         ./generate/inthandler.o:(.text.INT_IELSR31)
+     950      950        0     1                 
+     950      950        0     1                 
+     950      950        0     1                 
+     950      950        4     1                 INT_IELSR31
+     954      954        0     1                 
+     954      954        4     2         ./generate/inthandler.o:(.text.INT_DUMMY)
+     954      954        0     1                 
+     954      954        0     1                 
+     954      954        0     1                 
+     954      954        4     1                 INT_DUMMY
+     958      958        0     1                 
+     958      958        2     2         ./generate/vects.o:(.text.nvect_function)
+     958      958        0     1                 
+     958      958        0     1                 
+     958      958        0     1                 
+     958      958        2     1                 nvect_function
+     95a      95a        0     1                 
+     95a      95a       36     2         ./generate/vects.o:(.text.initialize_vect)
+     95a      95a        0     1                 
+     95a      95a        0     1                 
+     95a      95a        0     1                 
+     95a      95a       36     1                 initialize_vect
+     95c      95c        0     1                 
+     960      960        0     1                 
+     964      964        0     1                 
+     968      968        0     1                 
+     972      972        0     1                 
+     976      976        0     1                 
+     976      976        0     1                 .LBB1_1
+     976      976        0     1                 
+     982      982        0     1                 
+     988      988        0     1                 
+     98a      98a        0     1                 
+     98e      98e        0     1                 
+     98e      98e        0     1                 
+     990      990        0     1                 
+     990      990        0     1                 
+     990      990       ee     2         C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-memcpy.o):(.text.memcpy)
+     990      990       ee     1                 memcpy
+     9b2      9b2        0     1                 .LBB0_3
+     9c6      9c6        0     1                 .LBB0_5
+     9ca      9ca        0     1                 .LBB0_6
+     9dc      9dc        0     1                 .LBB0_7
+     9de      9de        0     1                 .LBB0_8
+     9e2      9e2        0     1                 .LBB0_9
+     9e8      9e8        0     1                 .LBB0_10
+     9ec      9ec        0     1                 .LBB0_11
+     9f2      9f2        0     1                 .LBB0_12
+     a0c      a0c        0     1                 .LBB0_13
+     a10      a10        0     1                 .LBB0_14
+     a62      a62        0     1                 .LBB0_15
+     a64      a64        0     1                 .LBB0_16
+     a6c      a6c        0     1                 .LBB0_18
+     a7e      a7e       5e     2         C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-init.o):(.text.__libc_init_array)
+     a7e      a7e       5e     1                 __libc_init_array
+     aa2      aa2        0     1                 .LBB0_2
+     aac      aac        0     1                 .LBB0_3
+     ac8      ac8        0     1                 .LBB0_5
+     ad2      ad2        0     1                 .LBB0_6
+     adc      adc       1c     2         C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-exit.o):(.text.exit)
+     adc      adc       1c     1                 exit
+     af4      af4        0     1                 .LBB0_2
+     af8      af8       c4     2         C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-__call_atexit.o):(.text.__call_exitprocs)
+     af8      af8       c4     1                 __call_exitprocs
+     b1e      b1e        0     1                 .LBB0_2
+     b32      b32        0     1                 .LBB0_4
+     b34      b34        0     1                 .LBB0_5
+     b4a      b4a        0     1                 .LBB0_6
+     b54      b54        0     1                 .LBB0_7
+     b64      b64        0     1                 .LBB0_9
+     b76      b76        0     1                 .LBB0_11
+     b7c      b7c        0     1                 .LBB0_12
+     b98      b98        0     1                 .LBB0_15
+     b9e      b9e        0     1                 .LBB0_16
+     ba6      ba6        0     1                 .LBB0_17
+     bbc      bbc        0     1 .rodata
+     bbc      bbc        0     1         . = ALIGN ( 4 )
+     bbc      bbc        0     1         __rodata = .
+     bbc      bbc        0     1         . = ALIGN ( 4 )
+     bbc      bbc        0     1         . = ALIGN ( 4 )
+     bbc      bbc        0     1         PROVIDE ( __preinit_array_start = . )
+     bbc      bbc        0     1         PROVIDE ( __preinit_array_end = . )
+     bbc      bbc        0     1         PROVIDE ( __init_array_start = . )
+     bbc      bbc        0     1         PROVIDE ( __init_array_end = . )
+     bbc      bbc        0     1         __erodata = .
+ 1010008  1010008        4     4 .option_secs
+ 1010008  1010008        4     4         ./generate/vects.o:(.option_secs)
+ 1010008  1010008        4     1                 Option_SECS
+ 1010010  1010010        4     4 .option_aws
+ 1010010  1010010        4     4         ./generate/vects.o:(.option_aws)
+ 1010010  1010010        4     1                 Option_AWS
+ 1010018  1010018        4     4 .option_uids0
+ 1010018  1010018        4     4         ./generate/vects.o:(.option_uids0)
+ 1010018  1010018        4     1                 Option_UIDS0
+ 1010020  1010020        4     4 .option_uids1
+ 1010020  1010020        4     4         ./generate/vects.o:(.option_uids1)
+ 1010020  1010020        4     1                 Option_UIDS1
+ 1010028  1010028        4     4 .option_uids2
+ 1010028  1010028        4     4         ./generate/vects.o:(.option_uids2)
+ 1010028  1010028        4     1                 Option_UIDS2
+ 1010030  1010030        4     4 .option_uids3
+ 1010030  1010030        4     4         ./generate/vects.o:(.option_uids3)
+ 1010030  1010030        4     1                 Option_UIDS3
+20004000 20004000        0     1 .data
+20004000 20004000        0     1         . = ALIGN ( 4 )
+20004000 20004000        0     1         PROVIDE ( __datastart = . )
+20004000 20004000        0     1         __data = .
+20004000 20004000        0     1         . = ALIGN ( 4 )
+20004000 20004000        0     1         __edata = .
+20004000 20004000        0     1 PROVIDE ( __romdatastart = LOADADDR ( .data ) )
+20004000 20004000        0     1 PROVIDE ( __romdatacopysize = SIZEOF ( .data ) )
+20000000 20000000        0     1 .data_eccram
+20000000 20000000        0     1         . = ALIGN ( 4 )
+20000000 20000000        0     1         PROVIDE ( __dataeccramstart = . )
+20000000 20000000        0     1         __data_eccram = .
+20000000 20000000        0     1         . = ALIGN ( 4 )
+20000000 20000000        0     1         __edata_eccram = .
+20000000 20000000        0     1 PROVIDE ( __romdataeccramstart = LOADADDR ( .data_eccram ) )
+20000000 20000000        0     1 PROVIDE ( __romdataeccramcopysize = SIZEOF ( .data_eccram ) )
+20004000 20004000        8     4 .bss
+20004000 20004000        0     1         . = ALIGN ( 4 )
+20004000 20004000        0     1         __bss = .
+20004000 20004000        4     4         C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-__call_atexit.o):(.sbss)
+20004000 20004000        4     1                 __atexit
+20004004 20004004        4     4         C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-findfp.o):(.sbss)
+20004004 20004004        4     1                 __stdio_exit_handler
+20004008 20004008        0     1         . = ALIGN ( 4 )
+20004008 20004008        0     1         . = ALIGN ( 4 )
+20004008 20004008        0     1         . = ALIGN ( 4 )
+20004008 20004008        0     1         __ebss = .
+20004008 20004008        0     1         end = .
+20000000 20000000        0     1 .bss_eccram
+20000000 20000000        0     1         . = ALIGN ( 4 )
+20000000 20000000        0     1         __bss_eccram = .
+20000000 20000000        0     1         . = ALIGN ( 4 )
+20000000 20000000        0     1         __ebss_eccram = .
+20000000 20000000        0     1 PROVIDE ( __stack_size = 0x200 )
+20006ffc 20006ffc        0     1 .stack
+20006ffc 20006ffc        0     1         PROVIDE ( __stack = . )
+20006ffc 20006ffc        0     1         
+       0        0      1e1     1 .debug_abbrev
+       0        0       39     1         ./src/risv.o:(.debug_abbrev)
+      39       39       21     1         ./generate/exit.o:(.debug_abbrev)
+      39       39        0     1                 
+      5a       5a       2c     1         ./generate/inthandler.o:(.debug_abbrev)
+      86       86       21     1         ./generate/start.o:(.debug_abbrev)
+      86       86        0     1                 
+      a7       a7      13a     1         ./generate/vects.o:(.debug_abbrev)
+       0        0     3e59     1 .debug_info
+       0        0       43     1         ./src/risv.o:(.debug_info)
+      43       43       ce     1         ./generate/exit.o:(.debug_info)
+      43       43        0     1                 
+     111      111      27a     1         ./generate/inthandler.o:(.debug_info)
+     38b      38b       d8     1         ./generate/start.o:(.debug_info)
+     38b      38b        0     1                 
+     463      463     39f6     1         ./generate/vects.o:(.debug_info)
+       0        0     19fe     1 .debug_str
+       0        0     19fe     1         <internal>:(.debug_str)
+       0        0       5b     1 .comment
+       0        0       5b     1         <internal>:(.comment)
+       0        0       40     1 .riscv.attributes
+       0        0       40     1         <internal>:(.riscv.attributes)
+       0        0      29c     4 .debug_frame
+       0        0       24     4         ./src/risv.o:(.debug_frame)
+       0        0        0     1                 
+      24       24      244     4         ./generate/inthandler.o:(.debug_frame)
+      24       24        0     1                 
+     268      268       34     4         ./generate/vects.o:(.debug_frame)
+     268      268        0     1                 
+       0        0      665     1 .debug_line
+       0        0       42     1         ./src/risv.o:(.debug_line)
+       0        0        0     1                 .Lline_table_start0
+      42       42       60     1         ./generate/exit.o:(.debug_line)
+      42       42        0     1                 .Lline_table_start0
+      a2       a2      2f0     1         ./generate/inthandler.o:(.debug_line)
+      a2       a2        0     1                 .Lline_table_start0
+     392      392       e7     1         ./generate/start.o:(.debug_line)
+     392      392        0     1                 .Lline_table_start0
+     479      479      1ec     1         ./generate/vects.o:(.debug_line)
+     479      479        0     1                 .Lline_table_start0
+       0        0       40     1 .debug_aranges
+       0        0       20     1         ./generate/exit.o:(.debug_aranges)
+      20       20       20     1         ./generate/start.o:(.debug_aranges)
+       0        0      138     1 .debug_ranges
+       0        0      120     1         ./generate/inthandler.o:(.debug_ranges)
+       0        0        0     1                 
+     120      120       18     1         ./generate/vects.o:(.debug_ranges)
+     120      120        0     1                 
+       0        0       31     1 .debug_loc
+       0        0       31     1         ./generate/vects.o:(.debug_loc)
+       0        0        0     1                 
+       0        0     33d0     4 .symtab
+       0        0     33d0     4         <internal>:(.symtab)
+       0        0      16c     1 .shstrtab
+       0        0      16c     1         <internal>:(.shstrtab)
+       0        0      51e     1 .strtab
+       0        0      51e     1         <internal>:(.strtab)
+
+Cross Reference Table
+
+Symbol                                            File
+main                                              ./src/risv.o
+                                                  ./generate/start.o
+_exit                                             ./generate/exit.o
+                                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-exit.o)
+INT_ACLINT_MSIP                                   ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_ACLINT_MTIP                                   ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR0                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR1                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR2                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR3                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR4                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR5                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR6                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR7                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR8                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR9                                        ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR10                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR11                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR12                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR13                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR14                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR15                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR16                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR17                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR18                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR19                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR20                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR21                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR22                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR23                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR24                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR25                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR26                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR27                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR28                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR29                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR30                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_IELSR31                                       ./generate/inthandler.o
+                                                  ./generate/vects.o
+INT_DUMMY                                         ./generate/inthandler.o
+                                                  ./generate/vects.o
+_PowerON_Reset                                    ./generate/start.o
+__global_pointer$                                 <internal>
+                                                  ./generate/start.o
+__stack                                           <internal>
+                                                  ./generate/start.o
+__bss                                             <internal>
+                                                  ./generate/start.o
+__ebss                                            <internal>
+                                                  ./generate/start.o
+memset                                            C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-memset.o)
+                                                  ./generate/start.o
+                                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-findfp.o)
+__datastart                                       <internal>
+                                                  ./generate/start.o
+__romdatastart                                    <internal>
+                                                  ./generate/start.o
+__romdatacopysize                                 <internal>
+                                                  ./generate/start.o
+memcpy                                            C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-memcpy.o)
+                                                  ./generate/start.o
+__dataeccramstart                                 <internal>
+                                                  ./generate/start.o
+__romdataeccramstart                              <internal>
+                                                  ./generate/start.o
+__romdataeccramcopysize                           <internal>
+                                                  ./generate/start.o
+__libc_init_array                                 C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-init.o)
+                                                  ./generate/start.o
+initialize_vect                                   ./generate/vects.o
+                                                  ./generate/start.o
+exit                                              C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-exit.o)
+                                                  ./generate/start.o
+nvect_function                                    ./generate/vects.o
+InterruptVectors                                  ./generate/vects.o
+ExceptVectors                                     ./generate/vects.o
+Option_OFS0                                       ./generate/vects.o
+Option_OFS1                                       ./generate/vects.o
+Option_FPR                                        ./generate/vects.o
+Option_OSIS                                       ./generate/vects.o
+Option_SECS                                       ./generate/vects.o
+Option_AWS                                        ./generate/vects.o
+Option_UIDS0                                      ./generate/vects.o
+Option_UIDS1                                      ./generate/vects.o
+Option_UIDS2                                      ./generate/vects.o
+Option_UIDS3                                      ./generate/vects.o
+__preinit_array_start                             <internal>
+                                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-init.o)
+__preinit_array_end                               <internal>
+                                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-init.o)
+__init_array_start                                <internal>
+                                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-init.o)
+__init_array_end                                  <internal>
+                                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-init.o)
+__call_exitprocs                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-__call_atexit.o)
+                                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-exit.o)
+__stdio_exit_handler                              C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-findfp.o)
+                                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-exit.o)
+__atexit                                          C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libc.a(libc_a-__call_atexit.o)
+end                                               <internal>
+                                                  C:\ProgramData\LLVM for Renesas RISC-V 17.0.2.202407\bin\..\lib\clang-runtimes\riscv32-unknown-elf/rv32imaczba_zbb_zbs/ilp32\lib\libnosys.a(sbrk.o)
