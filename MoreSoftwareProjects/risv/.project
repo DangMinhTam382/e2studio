@@ -29,5 +29,6 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 		<nature>com.renesas.cdt.managedbuild.jsoncdb.compilationdatabase.CompileCommandsNature</nature>
+		<nature>com.renesas.tools.r365.ide.r365Nature</nature>
 	</natures>
 </projectDescription>
