@@ -1,0 +1,1559 @@
+{
+  "deviceModels" : [ {
+    "boardName" : "EK-RA6M4",
+    "id" : "c4769f5f-0990-48b4-bab2-f06bc29c422d",
+    "mpn" : "R7FA6M4AF3CFB",
+    "peripherals" : [ {
+      "id" : "adc",
+      "instances" : [ {
+        "id" : "adc0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "adc0.mode.custom",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "adc0.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "AN000",
+              "pinName" : "adc0.an00",
+              "pinValue" : "adc0.an00.p000",
+              "portName" : "P000"
+            }, {
+              "function" : "AN001",
+              "pinName" : "adc0.an01",
+              "pinValue" : "adc0.an01.p001",
+              "portName" : "P001"
+            }, {
+              "function" : "AN003",
+              "pinName" : "adc0.an03",
+              "pinValue" : "adc0.an03.p003",
+              "portName" : "P003"
+            }, {
+              "function" : "AN007",
+              "pinName" : "adc0.an07",
+              "pinValue" : "adc0.an07.p007",
+              "portName" : "P007"
+            }, {
+              "function" : "AN012",
+              "pinName" : "adc0.an12",
+              "pinValue" : "adc0.an12.p014",
+              "portName" : "P014"
+            }, {
+              "function" : "AN013",
+              "pinName" : "adc0.an13",
+              "pinValue" : "adc0.an13.p015",
+              "portName" : "P015"
+            } ],
+            "pinDependencyConfigs" : [ ]
+          } ]
+        } ],
+        "name" : "ADC0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "analog",
+      "instances" : [ {
+        "id" : "analog0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "analog0.mode.disabled",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "analog0.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "AVCC0",
+              "pinName" : "analog0.avcc0",
+              "pinValue" : "analog0.avcc0.avcc0",
+              "portName" : "AVCC0"
+            }, {
+              "function" : "AVSS0",
+              "pinName" : "analog0.avss0",
+              "pinValue" : "analog0.avss0.avss0",
+              "portName" : "AVSS0"
+            }, {
+              "function" : "VREFH",
+              "pinName" : "analog0.vrefh",
+              "pinValue" : "analog0.vrefh.vrefh",
+              "portName" : "VREFH"
+            }, {
+              "function" : "VREFH0",
+              "pinName" : "analog0.vrefh0",
+              "pinValue" : "analog0.vrefh0.vrefh0",
+              "portName" : "VREFH0"
+            }, {
+              "function" : "VREFL",
+              "pinName" : "analog0.vrefl",
+              "pinValue" : "analog0.vrefl.vrefl",
+              "portName" : "VREFL"
+            }, {
+              "function" : "VREFL0",
+              "pinName" : "analog0.vrefl0",
+              "pinValue" : "analog0.vrefl0.vrefl0",
+              "portName" : "VREFL0"
+            } ],
+            "pinDependencyConfigs" : [ ]
+          } ]
+        } ],
+        "name" : "ANALOG0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "iic",
+      "instances" : [ {
+        "id" : "iic1",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "iic1.mode.enabled.a",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "iic1.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "SCL1",
+              "pinName" : "iic1.scl",
+              "pinValue" : "iic1.scl.p512",
+              "portName" : "P512"
+            }, {
+              "function" : "SDA1",
+              "pinName" : "iic1.sda",
+              "pinValue" : "iic1.sda.p511",
+              "portName" : "P511"
+            } ],
+            "pinDependencyConfigs" : [ {
+              "name" : "iic1.pairing",
+              "value" : "iic1.pairing.a"
+            } ]
+          } ]
+        } ],
+        "name" : "IIC1",
+        "unit" : "1"
+      } ]
+    }, {
+      "id" : "sci",
+      "instances" : [ {
+        "id" : "sci6",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "sci6.mode.iic.b",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "sci6.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "SCL6",
+              "pinName" : "sci6.scl",
+              "pinValue" : "sci6.scl.p505",
+              "portName" : "P505"
+            }, {
+              "function" : "SDA6",
+              "pinName" : "sci6.sda",
+              "pinValue" : "sci6.sda.p506",
+              "portName" : "P506"
+            } ],
+            "pinDependencyConfigs" : [ {
+              "name" : "sci6.pairing",
+              "value" : "sci6.pairing.b"
+            } ]
+          } ]
+        } ],
+        "name" : "SCI6",
+        "unit" : "6"
+      }, {
+        "id" : "sci7",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "sci7.mode.asynchronous.c",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "sci7.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "RXD7",
+              "pinName" : "sci7.rxd",
+              "pinValue" : "sci7.rxd.p614",
+              "portName" : "P614"
+            }, {
+              "function" : "TXD7",
+              "pinName" : "sci7.txd",
+              "pinValue" : "sci7.txd.p613",
+              "portName" : "P613"
+            } ],
+            "pinDependencyConfigs" : [ {
+              "name" : "sci7.pairing",
+              "value" : "sci7.pairing.c"
+            } ]
+          } ]
+        } ],
+        "name" : "SCI7",
+        "unit" : "7"
+      } ]
+    }, {
+      "id" : "spi",
+      "instances" : [ {
+        "id" : "spi0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "spi0.mode.enabled.free",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "spi0.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "MISOA",
+              "pinName" : "spi0.miso",
+              "pinValue" : "spi0.miso.p202",
+              "portName" : "P202"
+            }, {
+              "function" : "MOSIA",
+              "pinName" : "spi0.mosi",
+              "pinValue" : "spi0.mosi.p203",
+              "portName" : "P203"
+            }, {
+              "function" : "RSPCKA",
+              "pinName" : "spi0.rspck",
+              "pinValue" : "spi0.rspck.p204",
+              "portName" : "P204"
+            }, {
+              "function" : "SSLA0",
+              "pinName" : "spi0.ssl0",
+              "pinValue" : "spi0.ssl0.p205",
+              "portName" : "P205"
+            }, {
+              "function" : "SSLA2",
+              "pinName" : "spi0.ssl2",
+              "pinValue" : "spi0.ssl2.p301",
+              "portName" : "P301"
+            } ],
+            "pinDependencyConfigs" : [ {
+              "name" : "spi0.pairing",
+              "value" : "spi0.pairing.free"
+            } ]
+          } ]
+        } ],
+        "name" : "SPI0",
+        "unit" : "0"
+      }, {
+        "id" : "spi1",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "spi1.mode.enabled.b",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "spi1.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "MISOB",
+              "pinName" : "spi1.miso",
+              "pinValue" : "spi1.miso.p410",
+              "portName" : "P410"
+            }, {
+              "function" : "MOSIB",
+              "pinName" : "spi1.mosi",
+              "pinValue" : "spi1.mosi.p411",
+              "portName" : "P411"
+            }, {
+              "function" : "RSPCKB",
+              "pinName" : "spi1.rspck",
+              "pinValue" : "spi1.rspck.p412",
+              "portName" : "P412"
+            }, {
+              "function" : "SSLB0",
+              "pinName" : "spi1.ssl0",
+              "pinValue" : "spi1.ssl0.p413",
+              "portName" : "P413"
+            } ],
+            "pinDependencyConfigs" : [ {
+              "name" : "spi1.pairing",
+              "value" : "spi1.pairing.b"
+            } ]
+          } ]
+        } ],
+        "name" : "SPI1",
+        "unit" : "1"
+      } ]
+    }, {
+      "id" : "usbfs",
+      "instances" : [ {
+        "id" : "usbfs0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "usbfs0.mode.custom",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "usbfs0.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "USB_DM",
+              "pinName" : "usbfs0.dm",
+              "pinValue" : "usbfs0.dm.usbdm",
+              "portName" : "USBDM"
+            }, {
+              "function" : "USB_DP",
+              "pinName" : "usbfs0.dp",
+              "pinValue" : "usbfs0.dp.usbdp",
+              "portName" : "USBDP"
+            }, {
+              "function" : "USB_OVRCURA",
+              "pinName" : "usbfs0.ovrcura",
+              "pinValue" : "usbfs0.ovrcura.p501",
+              "portName" : "P501"
+            }, {
+              "function" : "USB_VBUS",
+              "pinName" : "usbfs0.vbus",
+              "pinValue" : "usbfs0.vbus.p407",
+              "portName" : "P407"
+            }, {
+              "function" : "USB_VBUSEN",
+              "pinName" : "usbfs0.vbusen",
+              "pinValue" : "usbfs0.vbusen.p500",
+              "portName" : "P500"
+            }, {
+              "function" : "VCC_USB",
+              "pinName" : "usbfs0.vcc",
+              "pinValue" : "usbfs0.vcc.vccusb",
+              "portName" : "VCCUSB"
+            }, {
+              "function" : "VSS_USB",
+              "pinName" : "usbfs0.vss",
+              "pinValue" : "usbfs0.vss.vssusb",
+              "portName" : "VSSUSB"
+            } ],
+            "pinDependencyConfigs" : [ ]
+          } ]
+        } ],
+        "name" : "USB_FS0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "irq",
+      "instances" : [ {
+        "id" : "irq0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "irq0.mode.enabled",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "irq0.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "IRQ06",
+              "pinName" : "irq0.irq06",
+              "pinValue" : "irq0.irq06.p409",
+              "portName" : "P409"
+            }, {
+              "function" : "IRQ08",
+              "pinName" : "irq0.irq08",
+              "pinValue" : "irq0.irq08.p002",
+              "portName" : "P002"
+            }, {
+              "function" : "IRQ09",
+              "pinName" : "irq0.irq09",
+              "pinValue" : "irq0.irq09.p414",
+              "portName" : "P414"
+            }, {
+              "function" : "IRQ10",
+              "pinName" : "irq0.irq10",
+              "pinValue" : "irq0.irq10.p005",
+              "portName" : "P005"
+            }, {
+              "function" : "IRQ11",
+              "pinName" : "irq0.irq11",
+              "pinValue" : "irq0.irq11.p006",
+              "portName" : "P006"
+            }, {
+              "function" : "IRQ12",
+              "pinName" : "irq0.irq12",
+              "pinValue" : "irq0.irq12.p008",
+              "portName" : "P008"
+            } ],
+            "pinDependencyConfigs" : [ ]
+          } ]
+        } ],
+        "name" : "ICU0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "ospi",
+      "instances" : [ {
+        "id" : "ospi0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "ospi0.mode.enable.free",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "ospi0.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "OMCS0",
+              "pinName" : "ospi0.omcs0",
+              "pinValue" : "ospi0.omcs0.p610",
+              "portName" : "P610"
+            }, {
+              "function" : "OMCS1",
+              "pinName" : "ospi0.omcs1",
+              "pinValue" : "ospi0.omcs1.p602",
+              "portName" : "P602"
+            }, {
+              "function" : "OMDQS",
+              "pinName" : "ospi0.omdqs",
+              "pinValue" : "ospi0.omdqs.p104",
+              "portName" : "P104"
+            }, {
+              "function" : "OMSCLK",
+              "pinName" : "ospi0.omsclk",
+              "pinValue" : "ospi0.omsclk.p100",
+              "portName" : "P100"
+            }, {
+              "function" : "OMSIO0",
+              "pinName" : "ospi0.omsio0",
+              "pinValue" : "ospi0.omsio0.p106",
+              "portName" : "P106"
+            }, {
+              "function" : "OMSIO1",
+              "pinName" : "ospi0.omsio1",
+              "pinValue" : "ospi0.omsio1.p102",
+              "portName" : "P102"
+            }, {
+              "function" : "OMSIO2",
+              "pinName" : "ospi0.omsio2",
+              "pinValue" : "ospi0.omsio2.p601",
+              "portName" : "P601"
+            }, {
+              "function" : "OMSIO3",
+              "pinName" : "ospi0.omsio3",
+              "pinValue" : "ospi0.omsio3.p107",
+              "portName" : "P107"
+            }, {
+              "function" : "OMSIO4",
+              "pinName" : "ospi0.omsio4",
+              "pinValue" : "ospi0.omsio4.p600",
+              "portName" : "P600"
+            }, {
+              "function" : "OMSIO5",
+              "pinName" : "ospi0.omsio5",
+              "pinValue" : "ospi0.omsio5.p105",
+              "portName" : "P105"
+            }, {
+              "function" : "OMSIO6",
+              "pinName" : "ospi0.omsio6",
+              "pinValue" : "ospi0.omsio6.p103",
+              "portName" : "P103"
+            }, {
+              "function" : "OMSIO7",
+              "pinName" : "ospi0.omsio7",
+              "pinValue" : "ospi0.omsio7.p101",
+              "portName" : "P101"
+            } ],
+            "pinDependencyConfigs" : [ {
+              "name" : "ospi0.pairing",
+              "value" : "ospi0.pairing.free"
+            } ]
+          } ]
+        } ],
+        "name" : "OSPI0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "qspi",
+      "instances" : [ {
+        "id" : "qspi0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "qspi0.mode.quad.b",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "qspi0.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "QIO0",
+              "pinName" : "qspi0.qio0",
+              "pinValue" : "qspi0.qio0.p307",
+              "portName" : "P307"
+            }, {
+              "function" : "QIO1",
+              "pinName" : "qspi0.qio1",
+              "pinValue" : "qspi0.qio1.p308",
+              "portName" : "P308"
+            }, {
+              "function" : "QIO2",
+              "pinName" : "qspi0.qio2",
+              "pinValue" : "qspi0.qio2.p309",
+              "portName" : "P309"
+            }, {
+              "function" : "QIO3",
+              "pinName" : "qspi0.qio3",
+              "pinValue" : "qspi0.qio3.p310",
+              "portName" : "P310"
+            }, {
+              "function" : "QSPCLK",
+              "pinName" : "qspi0.qspclk",
+              "pinValue" : "qspi0.qspclk.p305",
+              "portName" : "P305"
+            }, {
+              "function" : "QSSL",
+              "pinName" : "qspi0.qssl",
+              "pinValue" : "qspi0.qssl.p306",
+              "portName" : "P306"
+            } ],
+            "pinDependencyConfigs" : [ {
+              "name" : "qspi0.pairing",
+              "value" : "qspi0.pairing.b"
+            } ]
+          } ]
+        } ],
+        "name" : "QSPI0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "cgc",
+      "instances" : [ {
+        "id" : "cgc0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "cgc0.mode.mainsub",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "cgc0.mode"
+            }, {
+              "name" : "fspDriverId",
+              "value" : "module.driver.ioport_on_ioport"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "EXTAL",
+              "pinName" : "cgc0.extal",
+              "pinValue" : "cgc0.extal.p212",
+              "portName" : "P212"
+            }, {
+              "function" : "XCIN",
+              "pinName" : "cgc0.xcin",
+              "pinValue" : "cgc0.xcin.xcin",
+              "portName" : "XCIN"
+            }, {
+              "function" : "XCOUT",
+              "pinName" : "cgc0.xcout",
+              "pinValue" : "cgc0.xcout.xcout",
+              "portName" : "XCOUT"
+            }, {
+              "function" : "XTAL",
+              "pinName" : "cgc0.xtal",
+              "pinValue" : "cgc0.xtal.p213",
+              "portName" : "P213"
+            } ],
+            "pinDependencyConfigs" : [ ]
+          } ]
+        } ],
+        "name" : "CGC0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "debug",
+      "instances" : [ {
+        "id" : "debug0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "debug0.mode.jtag",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "debug0.mode"
+            }, {
+              "name" : "fspDriverId",
+              "value" : "module.driver.ioport_on_ioport"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "TCK",
+              "pinName" : "debug0.tck",
+              "pinValue" : "debug0.tck.p300",
+              "portName" : "P300"
+            }, {
+              "function" : "TDI",
+              "pinName" : "debug0.tdi",
+              "pinValue" : "debug0.tdi.p110",
+              "portName" : "P110"
+            }, {
+              "function" : "TDO",
+              "pinName" : "debug0.tdo",
+              "pinValue" : "debug0.tdo.p109",
+              "portName" : "P109"
+            }, {
+              "function" : "TMS",
+              "pinName" : "debug0.tms",
+              "pinValue" : "debug0.tms.p108",
+              "portName" : "P108"
+            } ],
+            "pinDependencyConfigs" : [ ]
+          } ]
+        } ],
+        "name" : "DEBUG0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "trace",
+      "instances" : [ {
+        "id" : "trace0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "trace0.mode.disabled",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "trace0.mode"
+            }, {
+              "name" : "fspDriverId",
+              "value" : "module.driver.ioport_on_ioport"
+            } ],
+            "pinConfigs" : [ ],
+            "pinDependencyConfigs" : [ ]
+          } ]
+        } ],
+        "name" : "DEBUG_TRACE0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "system",
+      "instances" : [ {
+        "id" : "system0",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "system0.mode.disabled",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "system0.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "RES",
+              "pinName" : "system0.res",
+              "pinValue" : "system0.res.res",
+              "portName" : "RES"
+            }, {
+              "function" : "VBATT",
+              "pinName" : "system0.vbatt",
+              "pinValue" : "system0.vbatt.vbatt",
+              "portName" : "VBATT"
+            }, {
+              "function" : "VCC",
+              "pinName" : "system0.vcc",
+              "pinValue" : "system0.vcc.vcc",
+              "portName" : "VCC"
+            }, {
+              "function" : "VCL",
+              "pinName" : "system0.vcl",
+              "pinValue" : "system0.vcl.vcl",
+              "portName" : "VCL"
+            }, {
+              "function" : "VCL0",
+              "pinName" : "system0.vcl0",
+              "pinValue" : "system0.vcl0.vcl0",
+              "portName" : "VCL0"
+            }, {
+              "function" : "VSS",
+              "pinName" : "system0.vss",
+              "pinValue" : "system0.vss.vss",
+              "portName" : "VSS"
+            } ],
+            "pinDependencyConfigs" : [ ]
+          } ]
+        } ],
+        "name" : "SYSTEM0",
+        "unit" : "0"
+      } ]
+    }, {
+      "id" : "gpt",
+      "instances" : [ {
+        "id" : "gpt6",
+        "modes" : [ {
+          "configurations" : [ {
+            "id" : "gpt6.mode.gtiocaorgtiocb.free",
+            "parameters" : [ {
+              "name" : "fspConfigId",
+              "value" : "gpt6.mode"
+            } ],
+            "pinConfigs" : [ {
+              "function" : "GTIOC6B",
+              "pinName" : "gpt6.gtiocb",
+              "pinValue" : "gpt6.gtiocb.p408",
+              "portName" : "P408"
+            } ],
+            "pinDependencyConfigs" : [ {
+              "name" : "gpt6.pairing",
+              "value" : "gpt6.pairing.free"
+            } ]
+          } ]
+        } ],
+        "name" : "GPT6",
+        "unit" : "6"
+      } ]
+    } ],
+    "ports" : [ {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "AN000",
+        "peripheralInstance" : "adc0"
+      } ],
+      "id" : "p000",
+      "name" : "P000",
+      "pin" : "140"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "AN001",
+        "peripheralInstance" : "adc0"
+      } ],
+      "id" : "p001",
+      "name" : "P001",
+      "pin" : "139"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "AN003",
+        "peripheralInstance" : "adc0"
+      } ],
+      "id" : "p003",
+      "name" : "P003",
+      "pin" : "137"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "AN007",
+        "peripheralInstance" : "adc0"
+      } ],
+      "id" : "p007",
+      "name" : "P007",
+      "pin" : "133"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "AN012",
+        "peripheralInstance" : "adc0"
+      } ],
+      "id" : "p014",
+      "name" : "P014",
+      "pin" : "124"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "AN013",
+        "peripheralInstance" : "adc0"
+      } ],
+      "id" : "p015",
+      "name" : "P015",
+      "pin" : "123"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "AVCC0",
+        "peripheralInstance" : "analog0"
+      } ],
+      "id" : "avcc0",
+      "name" : "AVCC0",
+      "pin" : "127"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "AVSS0",
+        "peripheralInstance" : "analog0"
+      } ],
+      "id" : "avss0",
+      "name" : "AVSS0",
+      "pin" : "128"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VREFH",
+        "peripheralInstance" : "analog0"
+      } ],
+      "id" : "vrefh",
+      "name" : "VREFH",
+      "pin" : "126"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VREFH0",
+        "peripheralInstance" : "analog0"
+      } ],
+      "id" : "vrefh0",
+      "name" : "VREFH0",
+      "pin" : "130"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VREFL",
+        "peripheralInstance" : "analog0"
+      } ],
+      "id" : "vrefl",
+      "name" : "VREFL",
+      "pin" : "125"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VREFL0",
+        "peripheralInstance" : "analog0"
+      } ],
+      "id" : "vrefl0",
+      "name" : "VREFL0",
+      "pin" : "129"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "ET0_MDC",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p401",
+      "name" : "P401",
+      "pin" : "2"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "ET0_MDIO",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p402",
+      "name" : "P402",
+      "pin" : "3"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "REF50CK",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p701",
+      "name" : "P701",
+      "pin" : "9"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RMII_CRS_DV",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p705",
+      "name" : "P705",
+      "pin" : "13"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RMII_RXD0",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p702",
+      "name" : "P702",
+      "pin" : "10"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RMII_RXD1",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p703",
+      "name" : "P703",
+      "pin" : "11"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RMII_RX_ER",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p704",
+      "name" : "P704",
+      "pin" : "12"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RMII_TXD0",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p700",
+      "name" : "P700",
+      "pin" : "8"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RMII_TXD1",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p406",
+      "name" : "P406",
+      "pin" : "7"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RMII_TXD_EN",
+        "peripheralInstance" : "etherc0.rmii"
+      } ],
+      "id" : "p405",
+      "name" : "P405",
+      "pin" : "6"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "SCL1",
+        "peripheralInstance" : "iic1"
+      } ],
+      "id" : "p512",
+      "name" : "P512",
+      "pin" : "143"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "SDA1",
+        "peripheralInstance" : "iic1"
+      } ],
+      "id" : "p511",
+      "name" : "P511",
+      "pin" : "144"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "SCL6",
+        "peripheralInstance" : "sci6"
+      } ],
+      "id" : "p505",
+      "name" : "P505",
+      "pin" : "118"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "SDA6",
+        "peripheralInstance" : "sci6"
+      } ],
+      "id" : "p506",
+      "name" : "P506",
+      "pin" : "119"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RXD7",
+        "peripheralInstance" : "sci7"
+      } ],
+      "id" : "p614",
+      "name" : "P614",
+      "pin" : "89"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "TXD7",
+        "peripheralInstance" : "sci7"
+      } ],
+      "id" : "p613",
+      "name" : "P613",
+      "pin" : "88"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "MISOA",
+        "peripheralInstance" : "spi0"
+      } ],
+      "id" : "p202",
+      "name" : "P202",
+      "pin" : "46"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "MOSIA",
+        "peripheralInstance" : "spi0"
+      } ],
+      "id" : "p203",
+      "name" : "P203",
+      "pin" : "45"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RSPCKA",
+        "peripheralInstance" : "spi0"
+      } ],
+      "id" : "p204",
+      "name" : "P204",
+      "pin" : "44"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "SSLA0",
+        "peripheralInstance" : "spi0"
+      } ],
+      "id" : "p205",
+      "name" : "P205",
+      "pin" : "43"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "SSLA2",
+        "peripheralInstance" : "spi0"
+      } ],
+      "id" : "p301",
+      "name" : "P301",
+      "pin" : "71"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "MISOB",
+        "peripheralInstance" : "spi1"
+      } ],
+      "id" : "p410",
+      "name" : "P410",
+      "pin" : "33"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "MOSIB",
+        "peripheralInstance" : "spi1"
+      } ],
+      "id" : "p411",
+      "name" : "P411",
+      "pin" : "32"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RSPCKB",
+        "peripheralInstance" : "spi1"
+      } ],
+      "id" : "p412",
+      "name" : "P412",
+      "pin" : "31"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "SSLB0",
+        "peripheralInstance" : "spi1"
+      } ],
+      "id" : "p413",
+      "name" : "P413",
+      "pin" : "30"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "USB_DM",
+        "peripheralInstance" : "usbfs0"
+      } ],
+      "id" : "usbdm",
+      "name" : "USBDM",
+      "pin" : "38"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "USB_DP",
+        "peripheralInstance" : "usbfs0"
+      } ],
+      "id" : "usbdp",
+      "name" : "USBDP",
+      "pin" : "39"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "USB_OVRCURA",
+        "peripheralInstance" : "usbfs0"
+      } ],
+      "id" : "p501",
+      "name" : "P501",
+      "pin" : "114"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "USB_VBUS",
+        "peripheralInstance" : "usbfs0"
+      } ],
+      "id" : "p407",
+      "name" : "P407",
+      "pin" : "36"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "USB_VBUSEN",
+        "peripheralInstance" : "usbfs0"
+      } ],
+      "id" : "p500",
+      "name" : "P500",
+      "pin" : "113"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VCC_USB",
+        "peripheralInstance" : "usbfs0"
+      } ],
+      "id" : "vccusb",
+      "name" : "VCCUSB",
+      "pin" : "40"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VSS_USB",
+        "peripheralInstance" : "usbfs0"
+      } ],
+      "id" : "vssusb",
+      "name" : "VSSUSB",
+      "pin" : "37"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "IRQ06",
+        "peripheralInstance" : "irq0"
+      } ],
+      "id" : "p409",
+      "name" : "P409",
+      "pin" : "34"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "IRQ08",
+        "peripheralInstance" : "irq0"
+      } ],
+      "id" : "p002",
+      "name" : "P002",
+      "pin" : "138"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "IRQ09",
+        "peripheralInstance" : "irq0"
+      } ],
+      "id" : "p414",
+      "name" : "P414",
+      "pin" : "29"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "IRQ10",
+        "peripheralInstance" : "irq0"
+      } ],
+      "id" : "p005",
+      "name" : "P005",
+      "pin" : "135"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "IRQ11",
+        "peripheralInstance" : "irq0"
+      } ],
+      "id" : "p006",
+      "name" : "P006",
+      "pin" : "134"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "IRQ12",
+        "peripheralInstance" : "irq0"
+      } ],
+      "id" : "p008",
+      "name" : "P008",
+      "pin" : "132"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMCS0",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p610",
+      "name" : "P610",
+      "pin" : "85"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMCS1",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p602",
+      "name" : "P602",
+      "pin" : "96"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMDQS",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p104",
+      "name" : "P104",
+      "pin" : "104"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMSCLK",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p100",
+      "name" : "P100",
+      "pin" : "108"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMSIO0",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p106",
+      "name" : "P106",
+      "pin" : "102"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMSIO1",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p102",
+      "name" : "P102",
+      "pin" : "106"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMSIO2",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p601",
+      "name" : "P601",
+      "pin" : "97"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMSIO3",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p107",
+      "name" : "P107",
+      "pin" : "101"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMSIO4",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p600",
+      "name" : "P600",
+      "pin" : "98"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMSIO5",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p105",
+      "name" : "P105",
+      "pin" : "103"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMSIO6",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p103",
+      "name" : "P103",
+      "pin" : "105"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "OMSIO7",
+        "peripheralInstance" : "ospi0"
+      } ],
+      "id" : "p101",
+      "name" : "P101",
+      "pin" : "107"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "QIO0",
+        "peripheralInstance" : "qspi0"
+      } ],
+      "id" : "p307",
+      "name" : "P307",
+      "pin" : "63"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "QIO1",
+        "peripheralInstance" : "qspi0"
+      } ],
+      "id" : "p308",
+      "name" : "P308",
+      "pin" : "62"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "QIO2",
+        "peripheralInstance" : "qspi0"
+      } ],
+      "id" : "p309",
+      "name" : "P309",
+      "pin" : "61"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "QIO3",
+        "peripheralInstance" : "qspi0"
+      } ],
+      "id" : "p310",
+      "name" : "P310",
+      "pin" : "60"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "QSPCLK",
+        "peripheralInstance" : "qspi0"
+      } ],
+      "id" : "p305",
+      "name" : "P305",
+      "pin" : "65"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "QSSL",
+        "peripheralInstance" : "qspi0"
+      } ],
+      "id" : "p306",
+      "name" : "P306",
+      "pin" : "64"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "EXTAL",
+        "peripheralInstance" : "cgc0"
+      } ],
+      "id" : "p212",
+      "name" : "P212",
+      "pin" : "20"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "XCIN",
+        "peripheralInstance" : "cgc0"
+      } ],
+      "id" : "xcin",
+      "name" : "XCIN",
+      "pin" : "16"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "XCOUT",
+        "peripheralInstance" : "cgc0"
+      } ],
+      "id" : "xcout",
+      "name" : "XCOUT",
+      "pin" : "17"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "XTAL",
+        "peripheralInstance" : "cgc0"
+      } ],
+      "id" : "p213",
+      "name" : "P213",
+      "pin" : "19"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "TCK",
+        "peripheralInstance" : "debug0"
+      } ],
+      "id" : "p300",
+      "name" : "P300",
+      "pin" : "72"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "TDI",
+        "peripheralInstance" : "debug0"
+      } ],
+      "id" : "p110",
+      "name" : "P110",
+      "pin" : "75"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "TDO",
+        "peripheralInstance" : "debug0"
+      } ],
+      "id" : "p109",
+      "name" : "P109",
+      "pin" : "74"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "TMS",
+        "peripheralInstance" : "debug0"
+      } ],
+      "id" : "p108",
+      "name" : "P108",
+      "pin" : "73"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "RES",
+        "peripheralInstance" : "system0"
+      } ],
+      "id" : "res",
+      "name" : "RES",
+      "pin" : "55"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VBATT",
+        "peripheralInstance" : "system0"
+      } ],
+      "id" : "vbatt",
+      "name" : "VBATT",
+      "pin" : "14"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VCC",
+        "peripheralInstance" : "system0"
+      } ],
+      "id" : "vcc",
+      "name" : "VCC",
+      "pin" : "142"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VCL",
+        "peripheralInstance" : "system0"
+      } ],
+      "id" : "vcl",
+      "name" : "VCL",
+      "pin" : "92"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VCL0",
+        "peripheralInstance" : "system0"
+      } ],
+      "id" : "vcl0",
+      "name" : "VCL0",
+      "pin" : "15"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "VSS",
+        "peripheralInstance" : "system0"
+      } ],
+      "id" : "vss",
+      "name" : "VSS",
+      "pin" : "141"
+    }, {
+      "configurations" : [ ],
+      "connections" : [ ],
+      "functions" : [ {
+        "name" : "GTIOC6B",
+        "peripheralInstance" : "gpt6"
+      } ],
+      "id" : "p408",
+      "name" : "P408",
+      "pin" : "35"
+    } ]
+  } ],
+  "hardwareModels" : [ {
+    "functionalBlockIds" : [ ],
+    "hardwareComponents" : [ {
+      "deviceModelId" : "c4769f5f-0990-48b4-bab2-f06bc29c422d",
+      "id" : "4e749ae0-bf89-43fe-a38e-6a5440695064",
+      "name" : "R7FA6M4AF3CFB",
+      "parameters" : [ ],
+      "sdmReferenceDesignator" : "HC1"
+    } ],
+    "id" : "5b11c48c-3a45-435d-8719-4eb5f20a6414",
+    "sdmReferenceDesignator" : "HM1"
+  } ],
+  "id" : "8982c820-de8e-4314-b263-b343b677d189",
+  "softwareModels" : [ {
+    "deviceModelId" : "c4769f5f-0990-48b4-bab2-f06bc29c422d",
+    "id" : "5975034b-cd5e-4b8c-a77e-f37663f1d0b0",
+    "implementedBy" : "grid:workspace:0cf8070c-a35d-4232-9dc3-a6577c246130:software:software-project/264EAEF6-60B1-4890-9BBC-E802782E3027",
+    "sdmReferenceDesignator" : "SM1",
+    "softwareComponents" : [ {
+      "id" : "6f09bd95-4406-4cc9-a769-5f83940b7240",
+      "implementedBy" : [ "module.driver.ioport_on_ioport.0" ],
+      "name" : "g_ioport I/O Port (r_ioport)",
+      "parameters" : [ ],
+      "sdmReferenceDesignator" : "module.driver.ioport_on_ioport.0"
+    } ],
+    "softwareStackInstances" : [ {
+      "dependencyIds" : [ ],
+      "id" : "module.driver.ioport_on_ioport.0",
+      "name" : "g_ioport I/O Port (r_ioport)",
+      "parameters" : [ ],
+      "peripheralInstanceId" : "debug0",
+      "specification" : {
+        "ecosystem" : "FSP",
+        "name" : "I/O Port (r_ioport)",
+        "vendor" : "Renesas",
+        "version" : "6.3.0"
+      }
+    } ]
+  } ],
+  "version" : 1
+}
