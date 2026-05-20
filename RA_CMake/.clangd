@@ -1,1 +1,1 @@
-CompileFlags: {BuiltinHeaders: QueryDriver, CompilationDatabase: Debug}
+CompileFlags: {BuiltinHeaders: QueryDriver, CompilationDatabase: build\cmake.arm.debug.R7FA6M4AF}
